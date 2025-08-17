@@ -1,0 +1,84 @@
+/* Estilo geral */
+body {
+  margin: 0;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #fffafc;
+  color: #5a3d3d;
+  text-align: center;
+}
+
+/* Cabeçalho */
+header {
+  background: linear-gradient(to bottom, #fce4ec, #fff);
+  padding: 50px 20px;
+  border-bottom: 3px solid #f8bbd0;
+}
+header h1 {
+  font-family: 'Great Vibes', cursive;
+  font-size: 3rem;
+  color: #b76e79;
+  margin: 0;
+}
+header p {
+  font-size: 1.2rem;
+  margin-top: 15px;
+  color: #6d4c41;
+}
+
+/* Borboletas decorativas */
+.decoracao {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+.borboleta {
+  width: 60px;
+  height: 60px;
+}
+.borboleta.left {
+  transform: rotate(-15deg);
+}
+.borboleta.right {
+  transform: rotate(15deg);
+}
+
+/* Seções */
+section {
+  margin: 40px auto;
+  max-width: 650px;
+  padding: 25px;
+  background: #ffffffd9;
+  border-radius: 25px;
+  box-shadow: 0 6px 12px rgba(0,0,0,0.08);
+}
+section h2 {
+  color: #b76e79;
+  margin-bottom: 15px;
+}
+
+/* Botões */
+.botao {
+  display: inline-block;
+  margin-top: 15px;
+  padding: 12px 28px;
+  background-color: #b76e79;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 25px;
+  font-weight: bold;
+  transition: background 0.3s, transform 0.2s;
+}
+.botao:hover {
+  background-color: #944d58;
+  transform: scale(1.05);
+}
+
+/* Rodapé */
+footer {
+  margin-top: 40px;
+  padding: 25px;
+  background: #fce4ec;
+  color: #5a3d3d;
+  border-top: 2px solid #b76e79;
+}
