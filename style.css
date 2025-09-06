@@ -26,21 +26,20 @@ header p {
 }
 
 /* Borboletas decorativas */
-.decoracao {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  gap: 20px;
+galeria {
+  margin: 40px auto;
+  max-width: 800px;
 }
-.borboleta {
-  width: 60px;
-  height: 60px;
+
+.galeria img {
+  border-radius: 16px;
+  margin: 10px;
+  box-shadow: 0 6px 12px rgba(0,0,0,0.15);
+  transition: transform 0.3s ease;
 }
-.borboleta.left {
-  transform: rotate(-15deg);
-}
-.borboleta.right {
-  transform: rotate(15deg);
+
+.galeria img:hover {
+  transform: scale(1.05);
 }
 
 /* Seções */
